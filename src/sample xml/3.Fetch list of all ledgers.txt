@@ -1,0 +1,1008 @@
+Request XML 
+-------------------------------------------------------------------------------------
+
+<ENVELOPE>
+<HEADER>
+<VERSION>1</VERSION>
+<TALLYREQUEST>Export</TALLYREQUEST>
+<TYPE>Data</TYPE>
+<ID>Export Masters</ID>
+</HEADER>
+<BODY>
+<DESC>
+<STATICVARIABLES>
+<EXPLODEFLAG>Yes</EXPLODEFLAG>
+<SVEXPORTFORMAT>$$SysName:XML</SVEXPORTFORMAT>
+<SVCURRENTCOMPANY>A</SVCURRENTCOMPANY>
+</STATICVARIABLES>
+</DESC>
+</BODY>
+</ENVELOPE>
+
+Response XML 
+-------------------------------------------------------------------------------------
+<ENVELOPE>
+    <HEADER>
+        <VERSION>1</VERSION>
+        <STATUS>1</STATUS>
+    </HEADER>
+    <BODY>
+        <DESC>
+            <CMPINFO>
+                <COMPANY>0</COMPANY>
+                <GROUP>0</GROUP>
+                <LEDGER>0</LEDGER>
+                <COSTCATEGORY>0</COSTCATEGORY>
+                <COSTCENTRE>0</COSTCENTRE>
+                <GODOWN>0</GODOWN>
+                <STOCKGROUP>0</STOCKGROUP>
+                <STOCKCATEGORY>0</STOCKCATEGORY>
+                <STOCKITEM>0</STOCKITEM>
+                <VOUCHERTYPE>0</VOUCHERTYPE>
+                <CURRENCY>0</CURRENCY>
+                <UNIT>0</UNIT>
+                <BUDGET>0</BUDGET>
+                <CLIENTRULE>0</CLIENTRULE>
+                <SERVERRULE>0</SERVERRULE>
+                <STATE>0</STATE>
+                <TDSRATE>0</TDSRATE>
+                <TAXCLASSIFICATION>0</TAXCLASSIFICATION>
+                <STCATEGORY>0</STCATEGORY>
+                <DEDUCTEETYPE>0</DEDUCTEETYPE>
+                <ATTENDANCETYPE>0</ATTENDANCETYPE>
+                <FBTCATEGORY>0</FBTCATEGORY>
+                <FBTASSESSEETYPE>0</FBTASSESSEETYPE>
+                <TARIFFCLASSIFICATION>0</TARIFFCLASSIFICATION>
+                <EXCISEDUTYCLASSIFICATION>0</EXCISEDUTYCLASSIFICATION>
+                <SERIALNUMBER>0</SERIALNUMBER>
+                <ADJUSTMENTCLASSIFICATION>0</ADJUSTMENTCLASSIFICATION>
+                <INCOMETAXSLAB>0</INCOMETAXSLAB>
+                <INCOMETAXCLASSIFICATION>0</INCOMETAXCLASSIFICATION>
+                <LBTCLASSIFICATION>0</LBTCLASSIFICATION>
+                <TAXUNIT>0</TAXUNIT>
+                <RETURNMASTER>0</RETURNMASTER>
+                <VOUCHER>0</VOUCHER>
+            </CMPINFO>
+        </DESC>
+        <DATA>
+            <COLLECTION ISMSTDEPTYPE="Yes" MSTDEPTYPE="8">
+                <LEDGER NAME="Arvind Associates" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Arvind Associates</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Cash" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-19500.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Cash</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="CST-1% (Purchase)" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>CST-1% (Purchase)</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="CST-12.5% (Purchase)" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-5468.75</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>CST-12.5% (Purchase)</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="CST-2% (Purchase)" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-612.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>CST-2% (Purchase)</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="CST-20% (Purchase)" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-2500.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>CST-20% (Purchase)</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="CST-5% (Purchase)" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-1615.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>CST-5% (Purchase)</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="CST @ 1%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>CST @ 1%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="CST @ 12.5%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">5625.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>CST @ 12.5%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="CST @ 2%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">755.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>CST @ 2%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Cst @ 2% (LS-1)" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">320.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Cst @ 2% (LS-1)</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="CST @ 20%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">2640.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>CST @ 20%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="CST @ 5%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">1720.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>CST @ 5%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Deccan Marketing" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-34500.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Deccan Marketing</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Digibee Technologies" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-91000.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Digibee Technologies</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Excel Traders" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">150682.50</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Excel Traders</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="First Computers" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-181358.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>First Computers</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="HDFC Bank" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-30605.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>HDFC Bank</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Icici Bank" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-10000.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Icici Bank</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Input Lower Rate 4%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Input Lower Rate 4%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Input Surcharge" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-3096.32</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Input Surcharge</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Input Tax @ 5% VAT" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-14916.50</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Input Tax @ 5% VAT</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Input Vat" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-33160.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Input Vat</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Input VAT @ 1%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-300.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Input VAT @ 1%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Input VAT @ 12%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-4500.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Input VAT @ 12%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Input VAT @ 20%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-3000.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Input VAT @ 20%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Input Vat @4%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-1200.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Input Vat @4%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Input VAT @ 5%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-2850.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Input VAT @ 5%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Input Vat on Capital Goods" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Input Vat on Capital Goods</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Interstate Purchase" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Interstate Purchase</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Interstate Purchase @ 12.5%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Interstate Purchase @ 12.5%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Interstate Purchase @ 2%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Interstate Purchase @ 2%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Interstate Purchase @ 20%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Interstate Purchase @ 20%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Interstate Purchase @ 5%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Interstate Purchase @ 5%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Interstate Purchases @ 1%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Interstate Purchases @ 1%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Interstate Purchases @ 12.5%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Interstate Purchases @ 12.5%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Interstate Sales" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Interstate Sales</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Interstate Sales @ 1%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Interstate Sales @ 1%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Interstate Sales @ 12.5%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Interstate Sales @ 12.5%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Interstate Sales @ 2%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Interstate Sales @ 2%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Interstate Sales @ 20%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Interstate Sales @ 20%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Interstate Sales @ 5%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Interstate Sales @ 5%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="K2 Tech Inc" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">120000.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>K2 Tech Inc</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Kamat Organics" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-43000.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Kamat Organics</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Karthik Enterprises" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">975810.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Karthik Enterprises</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Kiran Traders" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Kiran Traders</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Kirthi Traders" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-137764.25</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Kirthi Traders</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Kumar Organics" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-57000.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Kumar Organics</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Lathika Traders" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">129345.75</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Lathika Traders</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Lenova Inc" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">30000.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Lenova Inc</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Linc Fuel Corp" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-25000.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Linc Fuel Corp</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="L K Traders" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">64750.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>L K Traders</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Meghana IT Solns" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-16320.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Meghana IT Solns</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="M.G. Marketing" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">70000.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>M.G. Marketing</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Mining" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Mining</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="National Traders" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-60000.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>National Traders</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="National Traders - Bangalore" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-44000.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>National Traders - Bangalore</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Output Surcharge" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">3398.78</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Output Surcharge</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Output Tax @ 5% VAT" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">4793.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Output Tax @ 5% VAT</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Output Vat" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">36707.50</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Output Vat</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Output VAT @ 1%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">350.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Output VAT @ 1%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Output VAT @ 12%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">5040.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Output VAT @ 12%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Output VAT @ 20%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">3190.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Output VAT @ 20%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Output VAT @ 5%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">3375.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Output VAT @ 5%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Output VAT @ 8.8%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Output VAT @ 8.8%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Power Generator" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Power Generator</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Prajwal Traders" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-13500.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Prajwal Traders</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Prakash Enterprises" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Prakash Enterprises</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Prakruthi Traders" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-22500.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Prakruthi Traders</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Prateek Traders" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">313992.32</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Prateek Traders</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Pratham Traders" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-45000.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Pratham Traders</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Profit &amp; Loss A/c" RESERVEDNAME="Profit &amp; Loss A/c">
+                    <OPENINGBALANCE TYPE="Amount">453106.66</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Profit &amp; Loss A/c</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="PSU Enterprises" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>PSU Enterprises</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Purchase" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Purchase</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Purchase @4%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Purchase @4%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Purchase - Interstate" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Purchase - Interstate</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Purchase - Lower Rate 4%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Purchase - Lower Rate 4%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Purchases @ 1% Tax Rates" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Purchases @ 1% Tax Rates</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Purchases @ 12% Tax Rate" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Purchases @ 12% Tax Rate</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Purchases @ 20% Tax Rate" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Purchases @ 20% Tax Rate</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Purchases @ 5%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Purchases @ 5%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Purchases @ 5% (Lower Rate)" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Purchases @ 5% (Lower Rate)</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Purchases @ 5% Tax Rate" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Purchases @ 5% Tax Rate</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Refund Claim" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-5000.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Refund Claim</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Sales" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Sales</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Sales @ 1%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Sales @ 1%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Sales @ 12%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Sales @ 12%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Sales @ 20%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Sales @ 20%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Sales @ 4%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Sales @ 4%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Sales @ 4% Tax Rate" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Sales @ 4% Tax Rate</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Sales @ 5%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Sales @ 5%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Sales @ 5% (Lower Rate)" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Sales @ 5% (Lower Rate)</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Sales @ 8.8%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Sales @ 8.8%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Sales to URD @ 5% (Lower Rate)" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Sales to URD @ 5% (Lower Rate)</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Sales to URDs @ 5%" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Sales to URDs @ 5%</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Sanghvi Marketing" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">104200.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Sanghvi Marketing</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="S S Enterprises" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-102836.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>S S Enterprises</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Supreme Traders" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-468602.15</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Supreme Traders</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Surya Technologies" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-318935.88</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Surya Technologies</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Surya Traders" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">185000.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Surya Traders</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Swadesh Solns" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-4500.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Swadesh Solns</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Telecommunication" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">0.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Telecommunication</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="VAT Payable" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-15000.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>VAT Payable</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+                <LEDGER NAME="Vijayan Rice Traders" RESERVEDNAME="">
+                    <OPENINGBALANCE TYPE="Amount">-3400.00</OPENINGBALANCE>
+                    <LANGUAGENAME.LIST>
+                        <NAME.LIST TYPE="String">
+                            <NAME>Vijayan Rice Traders</NAME>
+                        </NAME.LIST>
+                        <LANGUAGEID TYPE="Number"> 1033</LANGUAGEID>
+                    </LANGUAGENAME.LIST>
+                </LEDGER>
+            </COLLECTION>
+        </DATA>
+    </BODY>
+</ENVELOPE>

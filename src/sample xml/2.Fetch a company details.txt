@@ -1,0 +1,99 @@
+Request XML 
+-------------------------------------------------------------------------------------
+<ENVELOPE>
+<HEADER>
+<VERSION>1</VERSION>
+<TALLYREQUEST>Export</TALLYREQUEST>
+<TYPE>Collection</TYPE>
+<ID>SBListOfCompanies</ID>
+</HEADER>
+<BODY>
+<DESC>
+<STATICVARIABLES>
+<SVEXPORTFORMAT>$$SysName:XML</SVEXPORTFORMAT>
+</STATICVARIABLES>
+<TDL>
+<TDLMESSAGE>
+<COLLECTION Name="SBListOfCompanies">
+<DATASOURCE>Company Selection List : &quot;D:\data&quot;</DATASOURCE>
+<FILTER>POCRequestReqdObj</FILTER>
+</COLLECTION>
+<SYSTEM Type="Formulae" Name="POCRequestReqdObj">$IsCompany AND $CompanyNumber=10000</SYSTEM>
+</TDLMESSAGE>
+</TDL>
+</DESC>
+</BODY>
+</ENVELOPE>
+
+
+Response XML 
+-------------------------------------------------------------------------------------
+
+<ENVELOPE>
+    <HEADER>
+        <VERSION>1</VERSION>
+        <STATUS>1</STATUS>
+    </HEADER>
+    <BODY>
+        <DESC>
+            <CMPINFO>
+                <COMPANY>0</COMPANY>
+                <GROUP>0</GROUP>
+                <LEDGER>0</LEDGER>
+                <COSTCATEGORY>0</COSTCATEGORY>
+                <COSTCENTRE>0</COSTCENTRE>
+                <GODOWN>0</GODOWN>
+                <STOCKGROUP>0</STOCKGROUP>
+                <STOCKCATEGORY>0</STOCKCATEGORY>
+                <STOCKITEM>0</STOCKITEM>
+                <VOUCHERTYPE>0</VOUCHERTYPE>
+                <CURRENCY>0</CURRENCY>
+                <UNIT>0</UNIT>
+                <BUDGET>0</BUDGET>
+                <CLIENTRULE>0</CLIENTRULE>
+                <SERVERRULE>0</SERVERRULE>
+                <STATE>0</STATE>
+                <TDSRATE>0</TDSRATE>
+                <TAXCLASSIFICATION>0</TAXCLASSIFICATION>
+                <STCATEGORY>0</STCATEGORY>
+                <DEDUCTEETYPE>0</DEDUCTEETYPE>
+                <ATTENDANCETYPE>0</ATTENDANCETYPE>
+                <FBTCATEGORY>0</FBTCATEGORY>
+                <FBTASSESSEETYPE>0</FBTASSESSEETYPE>
+                <TARIFFCLASSIFICATION>0</TARIFFCLASSIFICATION>
+                <EXCISEDUTYCLASSIFICATION>0</EXCISEDUTYCLASSIFICATION>
+                <SERIALNUMBER>0</SERIALNUMBER>
+                <ADJUSTMENTCLASSIFICATION>0</ADJUSTMENTCLASSIFICATION>
+                <INCOMETAXSLAB>0</INCOMETAXSLAB>
+                <INCOMETAXCLASSIFICATION>0</INCOMETAXCLASSIFICATION>
+                <LBTCLASSIFICATION>0</LBTCLASSIFICATION>
+                <TAXUNIT>0</TAXUNIT>
+                <RETURNMASTER>0</RETURNMASTER>
+                <VOUCHER>0</VOUCHER>
+            </CMPINFO>
+        </DESC>
+        <DATA>
+            <COLLECTION>
+                <PATHSELECTION NAME="National Traders" RESERVEDNAME="">
+                    <ENDINGAT TYPE="Date">20210331</ENDINGAT>
+                    <STARTINGFROM TYPE="Date">20100401</STARTINGFROM>
+                    <LASTMODIFIEDDATE TYPE="Date">20210330</LASTMODIFIEDDATE>
+                    <NAME TYPE="String">National Traders</NAME>
+                    <TALLYKEY TYPE="Logical">No</TALLYKEY>
+                    <CMPSTATUS TYPE="String"></CMPSTATUS>
+                    <LASTMODIFIEDTIME TYPE="Time">125458000</LASTMODIFIEDTIME>
+                    <PATH TYPE="String">D:\data\99981</PATH>
+                    <ISAGGREGATE TYPE="Logical">No</ISAGGREGATE>
+                    <ISSYSTEM TYPE="Logical">No</ISSYSTEM>
+                    <ISDIRECTORY TYPE="Logical">Yes</ISDIRECTORY>
+                    <ISHIDDEN TYPE="Logical">No</ISHIDDEN>
+                    <ISREADONLY TYPE="Logical">No</ISREADONLY>
+                    <ISCOMPANY TYPE="Logical">Yes</ISCOMPANY>
+                    <ISCOMPANYDIR TYPE="Logical">No</ISCOMPANYDIR>
+                    <COMPANYNUMBER TYPE="Number"> 99981</COMPANYNUMBER>
+                    <FILESIZE TYPE="Number">0</FILESIZE>
+                </PATHSELECTION>
+            </COLLECTION>
+        </DATA>
+    </BODY>
+</ENVELOPE>
